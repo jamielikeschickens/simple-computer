@@ -56,3 +56,15 @@ Store A reg to MEM[oreg].
 * RAM enable
 * Input A mux 1
 * AU: 0001
+
+## LDAC
+Load OREG into AREG
+
+* Select OREG as input A
+* Pass through AU into output DMX and feed into A
+* Enable AREG
+
+* AREG enable
+* Output MUX 0
+* Input A mux 1
+* AU: 0001
