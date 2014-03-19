@@ -68,3 +68,16 @@ Load OREG into AREG
 * Output MUX 0
 * Input A mux 1
 * AU: 0001
+
+## LDBC
+Load OREG into BREG
+
+* Select OREG as input A
+* Pass through AU into output DMX and feed into B
+* Enable BREG
+
+* Out DMX 1
+* BREG enable
+* Input A MUX 1
+* AU: 0001
+* Out MUX 0
