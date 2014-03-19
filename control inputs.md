@@ -81,3 +81,11 @@ Load OREG into BREG
 * Input A MUX 1
 * AU: 0001
 * Out MUX 0
+
+## LDAP
+Load address in PC: AREG <- PC + OREG
+
+* AREG enable
+* Out MUX 0
+* Input B MUX 0
+* Input A MUX 0
