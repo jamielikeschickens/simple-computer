@@ -24,8 +24,13 @@
 ## LDAM
 Load MEM[oreg] into A reg.
 
-### Execute
-* INMUX  = 0
-* AUCNT  = 
-* OUTMUX = 1
+* Select OREG as input A
+* Pass through AU into RAM 
+* Select RAM as output
+* Store in AREG
 
+* AREG enable
+* Input A mux 1
+* AU: 0001
+
+## LDBM
