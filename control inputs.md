@@ -34,3 +34,25 @@ Load MEM[oreg] into A reg.
 * AU: 0001
 
 ## LDBM
+Load MEM[oreg] into B reg.
+
+* Select OREG as input A
+* Pass through AU into RAM
+* Select RAM as output
+* Store in BREG
+
+* BREG enable
+* Input A mux 1
+* AU: 0001
+* Output dmx 1
+
+## STAM
+Store A reg to MEM[oreg].
+
+* Select  as input A
+* Pass through AU into RAM
+* Enable RAM write
+
+* RAM enable
+* Input A mux 1
+* AU: 0001
