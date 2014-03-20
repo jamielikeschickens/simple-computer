@@ -98,3 +98,10 @@ Load memory in AREG: AREG <- MEM[OREG + PC]
 * INPUT B MUX 0
 * INPUT A MUX 0
 
+## LDBI
+Load memory in BREG: BREG <- MEM[OREG + PC]
+
+* BREG enable
+* OUT DMX 1 
+* INPUT B MUX 0
+* INPUT A MUX 0
