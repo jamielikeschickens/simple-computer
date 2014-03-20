@@ -89,3 +89,12 @@ Load address in PC: AREG <- PC + OREG
 * Out MUX 0
 * Input B MUX 0
 * Input A MUX 0
+
+## LDAI
+Load memory in AREG: AREG <- MEM[OREG + PC]
+
+* AREG enable
+* OUT MUX 0
+* INPUT B MUX 0
+* INPUT A MUX 0
+
