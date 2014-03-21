@@ -120,3 +120,16 @@ Branch unconditionally: PC <- PC + OREG
 * INPUT A MUX 0 
 * INPUT B MUX 0
 * OUTPUT MUX 0 
+
+## BRZ
+If AREG = 0:
+  PC <- PC + OREG
+
+IF AREG = 0 then enable the following control signals
+(therefore pass one hot signal into MUX controlled by comp of AREG)
+
+* PC enable
+* OUTPUT DMX 0
+* INPUT A MUX 0
+* INPUT B MUX 0
+* OUTPUT MUX 0
