@@ -105,3 +105,9 @@ Load memory in BREG: BREG <- MEM[OREG + PC]
 * OUT DMX 1 
 * INPUT B MUX 0
 * INPUT A MUX 0
+
+## STAI
+Store AREG to mem: MEM[BREG + OREG] <- AREG
+
+* MEM enable
+* INPUT A MUX 1
