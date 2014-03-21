@@ -133,3 +133,11 @@ IF AREG = 0 then enable the following control signals
 * INPUT A MUX 0
 * INPUT B MUX 0
 * OUTPUT MUX 0
+
+## BRN
+
+If AREG < 0:
+  PC <- PC + OREG
+
+We can reuse the path from the last instruction if we change the function of the
+AU comp units
