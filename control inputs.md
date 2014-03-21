@@ -111,3 +111,12 @@ Store AREG to mem: MEM[BREG + OREG] <- AREG
 
 * MEM enable
 * INPUT A MUX 1
+
+## BR
+Branch unconditionally: PC <- PC + OREG
+
+* OUT DMX 0
+* PC Enable
+* INPUT A MUX 0 
+* INPUT B MUX 0
+* OUTPUT MUX 0 
