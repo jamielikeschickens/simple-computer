@@ -152,3 +152,9 @@ PC <- BREG
 * OUTPUT MUX 0
 * OUTPUT DMX 0
 
+## ADD
+AREG <- AREG + BREG
+
+* AREG Enable
+* OUTPUT MUX 0
+
