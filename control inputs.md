@@ -141,3 +141,14 @@ If AREG < 0:
 
 We can reuse the path from the last instruction if we change the function of the
 AU comp units
+
+## BRB
+
+PC <- BREG
+
+* PC enable
+* INPUT A MUX 0
+* INPUT A MUX 1
+* OUTPUT MUX 0
+* OUTPUT DMX 0
+
